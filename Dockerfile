@@ -7,7 +7,7 @@ FROM node:20.4.0-alpine as base
 
 FROM base as build
 WORKDIR /app
-histo
+
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 COPY package*.json ./
 
